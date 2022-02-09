@@ -3,9 +3,11 @@
     <head>
         <title>GameBoyAdvance Online</title>
         <meta charset="UTF-8">
-	<link rel="stylesheet" href="/gba/user_css/dropdown.css">
+	<link rel="stylesheet" href="https://HersheyTheFluff.github.io/gba/user_css/dropdown.css">
     </head>
     <body>
+	    <script src="https://HersheyTheFluff.github.io/gba/user_scripts/dropdown.js">
+	    </script>
 	    <h1>Hershey's Modded GBA Emulator!</h1>
 	    <hr>
         <h2>Select A Game:</h2>
@@ -19,27 +21,6 @@
 		  <a href="#.launcher.html#aladdin">Seed 3</a>
  		 </div>
 		</div>
-        </ul>	 
-      <script>
-	/* When the user clicks on the button, 
-	toggle between hiding and showing the dropdown content */
-	function myFunction() {
-	  document.getElementById("myDropdown").classList.toggle("show");
-	}
-	
-	// Close the dropdown if the user clicks outside of it
-	window.onclick = function(event) {
-	  if (!event.target.matches('.dropbtn')) {
- 	   var dropdowns = document.getElementsByClassName("dropdown-content");
- 	   var i;
- 	   for (i = 0; i < dropdowns.length; i++) {
-	      var openDropdown = dropdowns[i];
-	      if (openDropdown.classList.contains('show')) {
-	        openDropdown.classList.remove('show');
- 	     }
-	    }
-	  }
-	}
-      </script>
+        </ul>	
     </body>
 </html>
